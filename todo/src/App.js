@@ -10,7 +10,7 @@ export const App = () => {
 
   const addNewTask = item => dispatch({type: "ADD_ITEM", payload: item});
   const toggleComplete = item => dispatch({ type: "TOGGLE_COMPLETE", payload: item });
-  const clearComplete = item => dispatch({ type: "CLEAR_COMPLETE", payload: item });
+  const clearComplete = item => dispatch({ type: "CLEAR_COMPLETE"});
 
   return (
     <div className="App">
